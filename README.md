@@ -16,17 +16,24 @@ Download the Anaconda installer:
 
 ```bash
 wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+```
 
 ---
 
 ## 3. 🐍 Activate Anaconda
+
+Run the installer:
+
+```bash
 bash Anaconda3-2022.05-Linux-x86_64.sh
+```
+
+**This should now have Anaconda installed.**
 
 ---
 
-**This should now have anaconda installed**
+## 4. Check with:
 
-##. Check with:
+```bash
+conda --version
 ```
-bash conda --version
-
