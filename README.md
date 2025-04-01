@@ -55,6 +55,20 @@ conda activate <yourenvname>
 ```bash
 conda install torch matplotlib numpy pandas
 ```
+---
 
+### Running Jobs - Runs a job in the background
+```bash
+nohup file.py & 
+```
+## Now you have a file will create a key
+```bash
+[1] 324073
+```
+**Where [1] is the process number and 324073 is the process ID**
+Can check the progress with:
+```bash
+ps -p <process_id>
 
+```
 
