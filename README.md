@@ -1,28 +1,22 @@
-# Wolfson-HPC
-How to run and get set up on the wolfson HPC
+# 🖥️ Wolfson-HPC Setup Guide
 
-1) Login to HPC through thinlinc
+A step-by-step guide to get up and running on the Wolfson High Performance Computing (HPC) system.
 
-2) **Install Conda with**
-   wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+---
 
-   **then run**
-   
-   bash Anaconda3-2022.05-Linux-x86_64.sh
-   
-   **then grab the file from the source**
-   
-   source /home/<profile-name>/anaconda3/bin/activate
+## 1. 🔐 Log In to HPC
 
-3) **Create a conda env**
+Log in through **ThinLinc** using your university credentials.
 
-   conda create --name <what name you want to call it>
+---
 
-   **Activate you enviroment**
+## 2. 🐍 Install Anaconda (if not already installed)
 
-   conda activate <env_name>
+Download the Anaconda installer:
 
-4) **Install what packages you want**
+```bash
+wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 
-   conda install numpy ......
-   
+
+Run the Installer
+bash Anaconda3-2022.05-Linux-x86_64.sh
