@@ -37,3 +37,24 @@ bash Anaconda3-2022.05-Linux-x86_64.sh
 ```bash
 conda --version
 ```
+
+---
+
+## 5. Create a conda environemt:
+
+```bash
+conda create --name <yourenvname>
+```
+**Then activate your environment (do this everytime you want to log in)**
+```bash
+conda activate <yourenvname>
+```
+
+## 5. Install all the packages you want:
+
+```bash
+conda install torch matplotlib numpy pandas
+```
+
+
+
